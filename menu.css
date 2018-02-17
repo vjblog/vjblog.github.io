@@ -4,8 +4,10 @@
 #menuh-container
 	{
 	position:  relative;
-	margin-top: 5px;
+	margin-top: -32px;
 	width:750px;
+	color : #F0FFFF;
+	background : #221E1D;
 	}
 
 #menuh
