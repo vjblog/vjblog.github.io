@@ -1,20 +1,61 @@
 <html>
 <head>
-<title>VignesH</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<link href="style.css" rel="stylesheet" type="text/css" />
-<link href="menu.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="css/main.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.9/jquery-ui.js" type="text/javascript"></script>
+<link href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.9/themes/blitzer/jquery-ui.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#btnShow').click(function(){
+            $("#dialog").dialog({
+					minHeight:1000,
+					width: 1050,
+					height: 600});
+            $("#frame").attr("src", "images/my.pdf");
+        }); 
+    });
+</script>
+
 </head>
-<frameset rows="30, 70">
-	<frame src="general.html">
-	
-	<frameset cols="50, 50, 50, 50, 50">
-		<frame src="unit1.html">
-		<frame src="unit2.html">
-		<frame src="unit3.html">
-		<frame src="unit4.html">
-		<frame src="unit5.html">
-	
-	</frameset>
-</frameset>
+
+<body>
+<div class="prof-box">
+
+<img src="images/pp.jpg" class="prof-pic">
+
+
+<h1>Vignesh Dhandapani</h1>
+<h3> M.S Graduate | Assistant Professor </h3>
+<h3> Warsaw univeristy of Technology, Poland </h3>
+
+<div class="line-break"></div>
+
+<p> 
+    "Teachers, I believe, are the most responsible and important members of society because their professional efforts affect the fate of the earth." 
+</p>
+<div class="line-break"></div>
+<p>
+<a href="#" id="btnShow">Click here for My Profile</a> &nbsp;&nbsp;|&nbsp;&nbsp; 
+<a href="notesindex.html"  id="btnsow">My Notes</a>
+<div id="dialog" style="display: none;">
+    <div>
+        <iframe id="frame" width="1000" height="500"></iframe>
+    </div>
+</div>
+</p>
+<div class="line-brk"></div>	
+<div class="social-net">
+
+<a href="https://www.facebook.com/vignesdhandapani" target="_blank"><i class="fab fa-facebook-square"></i></a>
+
+<a href="https://www.linkedin.com/in/vignesdhandapani" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+<a href="www.linkedin.com/in/vignesdhandapani" target="_blank"><i class="fab fa-researchgate"></i></a>
+
+</div>
+</div>
+
+</body>
 </html>

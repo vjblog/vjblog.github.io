@@ -1,0 +1,83 @@
+html{
+	background: url(../images/bgimage.jpg);
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family:;
+}
+.home-bg{
+	background: url(../images/bgimage1.jpg);
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+.prof-box {
+	width : 420px;
+	height : 520px;
+	background-color : rgba(0,0,0,0.7);
+	padding:40px;
+	color:white;
+	margin:0 auto;
+	margin-top: 50px;
+	text-align:center;
+	
+	
+}
+.prof-pic{
+	border-radius: 50%;
+	height:200px;
+	width:200px;
+}
+
+.social-net{
+	font-size: 40px;
+}
+
+    .iframe-container {    
+    padding-bottom: 60%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.social-net a{
+color:white;
+
+}
+
+.line-brk{
+	width: 400px;
+	border-top: 1px solid white;
+	
+}
+
+.line-break{
+	width: 300px;
+	margin: 0 auto;
+	border-top: 1px solid white;
+	
+}
+
+.iframe-container iframe,
+.iframe-container object,
+.iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	
+}
+
+#btnshow{
+	color:white;
+	line-height: 10px;
+}
+
+#btnsow{
+	color:white;
+	
+}
+#bod{
+	color:white;
+}
